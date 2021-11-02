@@ -1,0 +1,6 @@
+Código aeropuerto: BCN, facturación total = 27546.149999999998€
+Código aeropuerto: CDG, facturación total = 24668.75€
+Código aeropuerto: FRA, facturación total = 30679.35€
+Código aeropuerto: JFK, facturación total = 39259.0€
+Código aeropuerto: MAD, facturación total = 11350.0€
+Código aeropuerto: PEK, facturación total = 34282.770000000004€

@@ -1,0 +1,123 @@
+
+6-4-2021, 23:55:27
+Consulta introducida: SELECT * FROM T_VUELOS
+Cód: CHI781, aerop: CDG, destino: BOSTON, fecha: 2007-11-23, 179.3€, numPlazas: 155, numPasajeros: 115
+Cód: EAS286, aerop: BCN, destino: BILBAO, fecha: 2007-11-23, 29.56€, numPlazas: 200, numPasajeros: 150
+Cód: IB1123, aerop: BCN, destino: MADRID, fecha: 2007-11-22, 12.37€, numPlazas: 155, numPasajeros: 100
+Cód: IB1133, aerop: BCN, destino: MADRID, fecha: 2007-11-23, 141.13€, numPlazas: 185, numPasajeros: 155
+Cód: IRA658, aerop: CDG, destino: BARCELONA, fecha: 2007-11-22, 53.99€, numPlazas: 149, numPasajeros: 75
+Cód: KAR490, aerop: FRA, destino: BARCELONA, fecha: 2007-11-22, 41.3€, numPlazas: 123, numPasajeros: 123
+Cód: KDB576, aerop: PEK, destino: MOSCÚ, fecha: 2007-11-23, 156.3€, numPlazas: 146, numPasajeros: 115
+Cód: KFY576, aerop: PEK, destino: LYON, fecha: 2007-11-23, 95.37€, numPlazas: 171, numPasajeros: 171
+Cód: MOT671, aerop: JFK, destino: MADRID, fecha: 2007-11-23, 41.3€, numPlazas: 123, numPasajeros: 123
+Cód: PYW913, aerop: FRA, destino: PARIS, fecha: 2007-11-22, 35.45€, numPlazas: 171, numPasajeros: 171
+Cód: RYA803, aerop: MAD, destino: VALENCIA, fecha: 2007-11-22, 14.1€, numPlazas: 150, numPasajeros: 150
+Cód: TAI541, aerop: MAD, destino: NEW YORK, fecha: 2007-11-22, 79.0€, numPlazas: 85, numPasajeros: 85
+Cód: UA0894, aerop: MAD, destino: PARIS, fecha: 2007-11-22, 30.0€, numPlazas: 85, numPasajeros: 84
+Cód: ULO549, aerop: JFK, destino: PEKIN, fecha: 2007-11-22, 119.0€, numPlazas: 180, numPasajeros: 155
+Cód: USA575, aerop: FRA, destino: NEW YORK, fecha: 2007-11-23, 156.3€, numPlazas: 125, numPasajeros: 125
+Cód: VLG256, aerop: JFK, destino: BARCELONA, fecha: 2007-11-22, 87.9€, numPlazas: 200, numPasajeros: 179
+
+6-4-2021, 23:55:49
+Consulta introducida: SELECT * FROM T_VUELOS WHERE DESTINO_VUELO='MADRID'
+Cód: IB1123, aerop: BCN, destino: MADRID, fecha: 2007-11-22, 12.37€, numPlazas: 155, numPasajeros: 100
+Cód: IB1133, aerop: BCN, destino: MADRID, fecha: 2007-11-23, 141.13€, numPlazas: 185, numPasajeros: 155
+Cód: MOT671, aerop: JFK, destino: MADRID, fecha: 2007-11-23, 41.3€, numPlazas: 123, numPasajeros: 123
+
+7-4-2021, 0:33:36
+Consulta introducida: SELECT * FROM T_VUELOS WHERE PRECIO_VUELO > 150
+Cód: CHI781, aerop: CDG, destino: BOSTON, fecha: 2007-11-23, 179.3€, numPlazas: 155, numPasajeros: 115
+Cód: KDB576, aerop: PEK, destino: MOSCÚ, fecha: 2007-11-23, 156.3€, numPlazas: 146, numPasajeros: 115
+Cód: USA575, aerop: FRA, destino: NEW YORK, fecha: 2007-11-23, 156.3€, numPlazas: 125, numPasajeros: 125
+
+7-4-2021, 11:13:23
+Consulta introducida: SELECT * FROM T_VUELOS WHERE PRECIO_VUELO < 30
+Cód: EAS286, aerop: BCN, destino: BILBAO, fecha: 2007-11-23, 29.56€, numPlazas: 200, numPasajeros: 150
+Cód: IB1123, aerop: BCN, destino: MADRID, fecha: 2007-11-22, 12.37€, numPlazas: 155, numPasajeros: 100
+Cód: RYA803, aerop: MAD, destino: VALENCIA, fecha: 2007-11-22, 14.1€, numPlazas: 150, numPasajeros: 150
+
+11-4-2021, 13:10:35
+Consulta introducida: SELECT * FROM T_VUELOS WHERE PRECIO_VUELO >150
+Cód: CHI781, aerop: CDG, destino: BOSTON, fecha: 2007-11-23, 179.3€, numPlazas: 155, numPasajeros: 115
+Cód: KDB576, aerop: PEK, destino: MOSCÚ, fecha: 2007-11-23, 156.3€, numPlazas: 146, numPasajeros: 115
+Cód: USA575, aerop: FRA, destino: NEW YORK, fecha: 2007-11-23, 156.3€, numPlazas: 125, numPasajeros: 125
+
+13-4-2021, 20:11:57
+Consulta introducida: SELECT * FROM T_VUELOS
+Cód: ASD, aerop: FRA, destino: PARLA, fecha: 1999-12-12, 57.5€, numPlazas: 20, numPasajeros: 1
+Cód: CHI781, aerop: CDG, destino: BOSTON, fecha: 2007-11-23, 179.3€, numPlazas: 155, numPasajeros: 115
+Cód: DNV451, aerop: FRA, destino: COPENHAGUE, fecha: 2021-05-12, 79.87€, numPlazas: 130, numPasajeros: 130
+Cód: EAS286, aerop: BCN, destino: BILBAO, fecha: 2007-11-23, 29.56€, numPlazas: 200, numPasajeros: 150
+Cód: IB1123, aerop: BCN, destino: MADRID, fecha: 2007-11-22, 12.37€, numPlazas: 155, numPasajeros: 100
+Cód: IB1133, aerop: BCN, destino: MADRID, fecha: 2007-11-23, 141.13€, numPlazas: 185, numPasajeros: 155
+Cód: IRA658, aerop: CDG, destino: BARCELONA, fecha: 2007-11-22, 53.99€, numPlazas: 149, numPasajeros: 75
+Cód: KAR490, aerop: FRA, destino: BARCELONA, fecha: 2007-11-22, 41.3€, numPlazas: 123, numPasajeros: 123
+Cód: KDB576, aerop: PEK, destino: MOSCÚ, fecha: 2007-11-23, 156.3€, numPlazas: 146, numPasajeros: 115
+Cód: KFY576, aerop: PEK, destino: LYON, fecha: 2007-11-23, 95.37€, numPlazas: 171, numPasajeros: 171
+Cód: MOT671, aerop: JFK, destino: MADRID, fecha: 2007-11-23, 41.3€, numPlazas: 123, numPasajeros: 123
+Cód: PYW913, aerop: FRA, destino: PARIS, fecha: 2007-11-22, 35.45€, numPlazas: 171, numPasajeros: 171
+Cód: SNF465, aerop: LCY, destino: ROMA, fecha: 2021-05-12, 78.79€, numPlazas: 126, numPasajeros: 124
+Cód: ULO549, aerop: JFK, destino: PEKIN, fecha: 2007-11-22, 119.0€, numPlazas: 180, numPasajeros: 155
+Cód: USA575, aerop: FRA, destino: NEW YORK, fecha: 2007-11-23, 156.3€, numPlazas: 125, numPasajeros: 125
+Cód: VLG256, aerop: JFK, destino: BARCELONA, fecha: 2007-11-22, 87.9€, numPlazas: 200, numPasajeros: 179
+
+14-4-2021, 15:25:30
+Consulta introducida: SELECT * FROM T_VUELOS
+Cód: ASD, aerop: BCN, destino: ASD, fecha: 1999-12-12, 12.0€, numPlazas: 15, numPasajeros: 1
+Cód: CHI781, aerop: CDG, destino: BOSTON, fecha: 2007-11-23, 179.3€, numPlazas: 155, numPasajeros: 115
+Cód: DNV451, aerop: FRA, destino: COPENHAGUE, fecha: 2021-05-12, 79.87€, numPlazas: 130, numPasajeros: 130
+Cód: EAS286, aerop: BCN, destino: BILBAO, fecha: 2007-11-23, 29.56€, numPlazas: 200, numPasajeros: 150
+Cód: FTI875, aerop: IBZ, destino: TOULUSE, fecha: 2007-11-24, 45.13€, numPlazas: 80, numPasajeros: 80
+Cód: IB1123, aerop: BCN, destino: MADRID, fecha: 2007-11-22, 12.37€, numPlazas: 155, numPasajeros: 100
+Cód: IB1133, aerop: BCN, destino: MADRID, fecha: 2007-11-23, 141.13€, numPlazas: 185, numPasajeros: 155
+Cód: IRA658, aerop: CDG, destino: BARCELONA, fecha: 2007-11-22, 53.99€, numPlazas: 149, numPasajeros: 75
+Cód: KAR490, aerop: FRA, destino: BARCELONA, fecha: 2007-11-22, 41.3€, numPlazas: 123, numPasajeros: 123
+Cód: KDB576, aerop: PEK, destino: MOSCÚ, fecha: 2007-11-23, 156.3€, numPlazas: 146, numPasajeros: 115
+Cód: KFY576, aerop: PEK, destino: LYON, fecha: 2007-11-23, 95.37€, numPlazas: 171, numPasajeros: 171
+Cód: MOT671, aerop: JFK, destino: MADRID, fecha: 2007-11-23, 41.3€, numPlazas: 123, numPasajeros: 123
+Cód: PYW913, aerop: FRA, destino: PARIS, fecha: 2007-11-22, 35.45€, numPlazas: 171, numPasajeros: 171
+Cód: SNF465, aerop: LCY, destino: ROMA, fecha: 2021-05-12, 78.79€, numPlazas: 126, numPasajeros: 124
+Cód: TYO713, aerop: IBZ, destino: MUNICH, fecha: 2007-11-24, 79.0€, numPlazas: 150, numPasajeros: 145
+Cód: ULO549, aerop: JFK, destino: PEKIN, fecha: 2007-11-22, 119.0€, numPlazas: 180, numPasajeros: 155
+Cód: USA575, aerop: FRA, destino: NEW YORK, fecha: 2007-11-23, 156.3€, numPlazas: 125, numPasajeros: 125
+Cód: VLG256, aerop: JFK, destino: BARCELONA, fecha: 2007-11-22, 87.9€, numPlazas: 200, numPasajeros: 179
+
+14-4-2021, 15:26:48
+Consulta introducida: SELECT *
+FROM T_VUELOS
+Cód: ASD, aerop: BCN, destino: ASD, fecha: 1999-12-12, 12.0€, numPlazas: 15, numPasajeros: 1
+Cód: CHI781, aerop: CDG, destino: BOSTON, fecha: 2007-11-23, 179.3€, numPlazas: 155, numPasajeros: 115
+Cód: DNV451, aerop: FRA, destino: COPENHAGUE, fecha: 2021-05-12, 79.87€, numPlazas: 130, numPasajeros: 130
+Cód: EAS286, aerop: BCN, destino: BILBAO, fecha: 2007-11-23, 29.56€, numPlazas: 200, numPasajeros: 150
+Cód: FTI875, aerop: IBZ, destino: TOULUSE, fecha: 2007-11-24, 45.13€, numPlazas: 80, numPasajeros: 80
+Cód: IB1123, aerop: BCN, destino: MADRID, fecha: 2007-11-22, 12.37€, numPlazas: 155, numPasajeros: 100
+Cód: IB1133, aerop: BCN, destino: MADRID, fecha: 2007-11-23, 141.13€, numPlazas: 185, numPasajeros: 155
+Cód: IRA658, aerop: CDG, destino: BARCELONA, fecha: 2007-11-22, 53.99€, numPlazas: 149, numPasajeros: 75
+Cód: KAR490, aerop: FRA, destino: BARCELONA, fecha: 2007-11-22, 41.3€, numPlazas: 123, numPasajeros: 123
+Cód: KDB576, aerop: PEK, destino: MOSCÚ, fecha: 2007-11-23, 156.3€, numPlazas: 146, numPasajeros: 115
+Cód: KFY576, aerop: PEK, destino: LYON, fecha: 2007-11-23, 95.37€, numPlazas: 171, numPasajeros: 171
+Cód: MOT671, aerop: JFK, destino: MADRID, fecha: 2007-11-23, 41.3€, numPlazas: 123, numPasajeros: 123
+Cód: PYW913, aerop: FRA, destino: PARIS, fecha: 2007-11-22, 35.45€, numPlazas: 171, numPasajeros: 171
+Cód: SNF465, aerop: LCY, destino: ROMA, fecha: 2021-05-12, 78.79€, numPlazas: 126, numPasajeros: 124
+Cód: TYO713, aerop: IBZ, destino: MUNICH, fecha: 2007-11-24, 79.0€, numPlazas: 150, numPasajeros: 145
+Cód: ULO549, aerop: JFK, destino: PEKIN, fecha: 2007-11-22, 119.0€, numPlazas: 180, numPasajeros: 155
+Cód: USA575, aerop: FRA, destino: NEW YORK, fecha: 2007-11-23, 156.3€, numPlazas: 125, numPasajeros: 125
+Cód: VLG256, aerop: JFK, destino: BARCELONA, fecha: 2007-11-22, 87.9€, numPlazas: 200, numPasajeros: 179
+
+14-4-2021, 15:28:38
+Consulta introducida: SELECT *
+FROM T_VUELOS
+WHERE CODIGO_AEROPUERTO="BCN"
+Cód: ASD, aerop: BCN, destino: ASD, fecha: 1999-12-12, 12.0€, numPlazas: 15, numPasajeros: 1
+Cód: EAS286, aerop: BCN, destino: BILBAO, fecha: 2007-11-23, 29.56€, numPlazas: 200, numPasajeros: 150
+Cód: IB1123, aerop: BCN, destino: MADRID, fecha: 2007-11-22, 12.37€, numPlazas: 155, numPasajeros: 100
+Cód: IB1133, aerop: BCN, destino: MADRID, fecha: 2007-11-23, 141.13€, numPlazas: 185, numPasajeros: 155
+
+14-4-2021, 15:32:21
+Consulta introducida: SELECT *
+FROM T_VUELOS
+WHERE CODIGO_AEROPUERTO="BCN"
+Cód: ASD, aerop: BCN, destino: ASD, fecha: 1999-12-12, 12.0€, numPlazas: 15, numPasajeros: 1
+Cód: EAS286, aerop: BCN, destino: BILBAO, fecha: 2007-11-23, 29.56€, numPlazas: 200, numPasajeros: 150
+Cód: IB1123, aerop: BCN, destino: MADRID, fecha: 2007-11-22, 12.37€, numPlazas: 155, numPasajeros: 100
+Cód: IB1133, aerop: BCN, destino: MADRID, fecha: 2007-11-23, 141.13€, numPlazas: 185, numPasajeros: 155
